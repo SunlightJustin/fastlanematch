@@ -53,7 +53,13 @@ This directory contains all your certificates with their private keys
 #### profiles
 
 This directory contains all provisioning profiles
-
+!] Xcode - develop for iOS and macOS
+    ✗ Xcode installation is incomplete; a full installation is necessary for iOS and macOS development.
+      Download at: https://developer.apple.com/xcode/
+      Or install Xcode via the App Store.
+      Once installed, run:
+        sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+        sudo xcodebuild -runFirstLaunch
 ---
 
 For more information open [fastlane match git repo](https://docs.fastlane.tools/actions/match/)
